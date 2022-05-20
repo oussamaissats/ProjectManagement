@@ -1,0 +1,39 @@
+.site-container {
+  min-height: 100vh;
+}
+
+main {
+  padding: 1rem;
+  flex: 1;
+}
+
+.btn-primary {
+  background-color: #f0c040;
+  color: #000000;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.project img {
+  width: 100%;
+  max-width: 400px;
+}
+.project-info {
+  padding: 1rem;
+}
+.img-large {
+  max-width: 100%;
+}
+
+
+.small-container {
+  max-width: 600px;
+}
